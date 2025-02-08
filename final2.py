@@ -83,7 +83,6 @@ def put_text_obj(img, object, disappeared_count, type_name, is_reverse):
             #             cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 255), 1)
             cv2.circle(img, (position[0] + 40, position[1] + 15), 4, (0, 0, 255), -1)
 
-
 def process_region(type_name, num, is_reverse=False):
     img = np.array(sct.grab(capture_regions[type_name]))
     imgCheck = np.array(sct.grab(capture_region_check[type_name]))
