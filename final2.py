@@ -4,7 +4,6 @@ from CentroidTrackerObject import CentroidTrackerObject
 from ConnectNamedPipe import ConnectNamedPipe
 import time
 import mss
-from collections import deque
 import os
 import datetime
 
