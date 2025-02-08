@@ -59,7 +59,6 @@ class CentroidTrackerObject:
                     continue
 
                 object_id = object_ids[row]
-                # previous_position = self.objects[object_id]["position"]
                 new_position = input_centroids[col]
                 self.objects[object_id]["position"] = new_position
                 self.disappeared[object_id] = 0
